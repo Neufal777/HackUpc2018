@@ -11,6 +11,6 @@ class Block{
     }   
 }
 
-bloque = new block(0,'naoufal');
+bloque = new Block(0,'naoufal');
 
 bloque;
