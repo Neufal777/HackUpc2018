@@ -1,4 +1,109 @@
 body{
 
-    
+	background-color: #243A51;
+	font-family: 'Niramit', sans-serif;
+	margin:0;
+	padding: 0;
+}
+
+.Hcontainer{
+
+	width: 900px;
+	height: 650px;
+	background-color: #EEEEEE;
+	margin: auto;
+	margin-top: 150px;
+	border-radius: 5px;
+	-webkit-box-shadow: 4px 4px 44px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 4px 44px -8px rgba(0,0,0,0.75);
+	box-shadow: 4px 4px 44px -8px rgba(0,0,0,0.75);
+}
+
+.candidatesContainer{
+
+	width: 750px;
+	height: 400px;
+	background-color:#EEEEEE;
+	margin: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: none;
+	padding: 20px;
+}
+
+.singleCandidateContainer{
+
+	width: 500px;
+	height: 170px;
+	background-color: #FFFFFF;
+	margin: 25px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+}
+
+.candidateImage{
+
+	height: 100%;
+}
+
+
+.candidateInfo{
+
+	width: 220px;
+	height: 120px;
+	position: absolute;
+	margin-left: 250px;
+	margin-top: 20px;
+	border-radius: 4px;
+
+}
+
+
+.nameCandidate{
+
+	padding: 10px;
+	font-style: italic;
+}
+
+.buttonVote{
+
+	margin-left: 15px;
+	border:none;
+	padding: 8px;
+	border-radius: 3px;
+	font-size: 15px;
+	width: 200px;
+	-webkit-transition:.2s;
+	outline: none;
+	font-family: 'Niramit', sans-serif;
+	color:#F44336;
+}
+
+.buttonVote:hover{
+
+	background-color: #3CD483;
+	color: white;
+}
+
+
+.num_of_votes{
+
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 115px;
+	display: none;
+	color:#3CD483;
+}
+
+#homeTopBar{
+	width: 100%;
+	height: 70px;
+	background-color: #EEEEEE;
+	border-bottom: 7px solid #C62828;
+}
+
+#pageTitleTopBar{
+
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 15px;
 }

@@ -5,10 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js"></script>
-    <title>Hackupc 2018</title>
+    <link href="https://fonts.googleapis.com/css?family=Niramit|Roboto" rel="stylesheet">
+    <title>Hackupc 2018 / FRONTEND</title>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-    
+	<div id="homeTopBar">
+		<h3 id="pageTitleTopBar">Voting System (FrontEnd) </h3>
+	</div><!--homeTopBar-->
+    <div class="Hcontainer">
+    	<div class="candidatesContainer">
+    		<div class="singleCandidateContainer">
+    			
+    			<div class="candidateInfo">
+    				<h4 class="nameCandidate">Emmanuel Macron</h4>
+    				<button class="buttonVote" onclick="voted()" id="buttonVote1">VOTE !</button>
+    			</div><!--candidateInfo-->
+    			<h3 class="num_of_votes" id="num_of_votes1">242,182 votes</h3><!--num_of_votes-->
+    			<img class="candidateImage" src="img/macron.jpg"></img><!--candidateImage-->
+    		</div><!--singleCandidateContainer-->
+
+
+
+    		 <div class="singleCandidateContainer">
+    		 	<div class="candidateInfo">
+    				<h4 class="nameCandidate">Donald Trump</h4>
+    				<button class="buttonVote" onclick="voted()" id="buttonVote2" >VOTE !</button>
+    			</div><!--candidateInfo-->
+    				<h3 class="num_of_votes" id="num_of_votes2" >52,341 votes</h3><!--num_of_votes-->
+    		     <img class="candidateImage" src="img/donald.jpg"></img><!--candidateImage-->			
+    		</div><!--singleCandidateContainer-->
+
+
+
+
+    		<div class="singleCandidateContainer">
+
+    			<div class="candidateInfo">
+    				<h4 class="nameCandidate">Justin Trudeau</h4>
+    				<button class="buttonVote" onclick="voted()" id="buttonVote3" >VOTE !</button>
+    			</div><!--candidateInfo-->
+					<h3 class="num_of_votes" id="num_of_votes3" >975,830 votes</h3><!--num_of_votes-->
+    			 <img class="candidateImage" src="img/canad.jpg"></img><!--candidateImage-->			                                          
+    		</div><!--singleCandidateContainer-->
+    	</div><!--candidatesContainer-->
+    </div><!--Hcontainer-->
 </body>
 </html>
